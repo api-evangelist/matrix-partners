@@ -1,0 +1,76 @@
+aid: matrix-partners
+name: Matrix Partners
+description: >-
+  Matrix Partners (now branded simply "Matrix") is an early-stage venture capital firm founded in 1977 by
+  Paul Ferri, investing from idea through Series A. Headquartered in San Francisco at 535 Mission Street with
+  a long-standing East Coast office in Cambridge, Massachusetts, the firm is run by former founders and
+  company builders who describe themselves as "contrarians who invest with conviction," backing founders with
+  deep technical expertise and a specific vision of the future. Matrix is a generalist early-stage investor
+  across AI / frontier tech, B2B and enterprise software, fintech, consumer, healthtech, infrastructure, and
+  semiconductors, typically writing seed and Series A checks and leading rounds. Over nearly five decades the
+  firm has backed foundational technology and consumer companies including Apple, HubSpot, Zendesk, Canva,
+  Afterpay, Oculus, Fivetran, Flock Safety, Quora, Postmates, GOAT, and Suno, with a track record spanning
+  semiconductors and networking through today's AI-native startups.
+image: https://matrix.vc/favicon.ico
+x-type: venture-capital
+x-category: Venture Capital
+created: '2026-07-17'
+modified: '2026-07-17'
+specificationVersion: '0.20'
+tags:
+  - Venture Capital
+  - Seed
+  - Series A
+  - Early Stage
+  - Artificial Intelligence
+  - Fintech
+  - Enterprise
+  - B2B
+  - Infrastructure
+  - Semiconductors
+  - HealthTech
+  - Consumer
+  - Developer Tools
+  - San Francisco
+  - Boston
+  - North America
+apis: []
+common:
+  - type: Website
+    url: https://matrix.vc/
+  - type: Portfolio
+    url: https://matrix.vc/#portfolio
+  - type: Portfolio
+    url: portfolio/matrix-partners-portfolio.yml
+  - type: Team
+    url: https://matrix.vc/#team-anchor
+  - type: Team
+    url: team/matrix-partners-team.yml
+  - type: InvestmentThesis
+    url: https://matrix.vc/
+  - type: Contact
+    url: mailto:info@matrix.vc
+  - type: Crunchbase
+    url: https://www.crunchbase.com/organization/matrix-partners
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/matrix-partners/
+  - type: Features
+    data:
+      - "Stage: Seed through Series A (idea through Series A)"
+      - "Sectors: AI / frontier tech, B2B, fintech, consumer, healthtech, infrastructure, semiconductors"
+      - "Geography: United States (San Francisco and Boston), global technology"
+      - "Founded: 1977 (by Paul Ferri)"
+      - "HQ: 535 Mission Street, San Francisco, CA; office at 101 Main Street, Cambridge, MA"
+      - "Brand: rebranded from Matrix Partners to Matrix (matrix.vc)"
+    sources:
+      - https://matrix.vc/
+      - https://en.wikipedia.org/wiki/Matrix_Partners
+    updated: '2026-07-17'
+maintainers:
+  - FN: Kin Lane
+    email: info@apievangelist.com
+    url: https://apievangelist.com
+  - FN: APIs.json
+    url: http://apisjson.org
+  - FN: Matrix Partners
+    url: https://matrix.vc/

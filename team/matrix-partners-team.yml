@@ -1,0 +1,55 @@
+generated: '2026-07-17'
+method: searched
+source: https://matrix.vc/#team-anchor
+type: Team
+team:
+  - name: Antonio Rodriguez
+    role: General Partner (AI, Frontier)
+    linkedin: https://www.linkedin.com/in/antrod/
+    twitter: https://twitter.com/antrod
+  - name: Dana Stalder
+    role: General Partner (FinTech, B2B)
+    linkedin: https://www.linkedin.com/in/dcstalder/
+  - name: Ilya Sukhar
+    role: General Partner (AI, Infrastructure)
+    linkedin: https://www.linkedin.com/in/ilyasukhar/
+    twitter: https://twitter.com/ilyasu
+  - name: Kojo Osei
+    role: Partner (AI, Infrastructure)
+    linkedin: https://www.linkedin.com/in/kwosei/
+    twitter: https://twitter.com/heykojo
+  - name: Matt Brown
+    role: Partner (FinTech, B2B)
+    linkedin: https://www.linkedin.com/in/matttb/
+    twitter: https://twitter.com/matttbrown
+  - name: Stan Reiss
+    role: General Partner (Semiconductors)
+    linkedin: https://www.linkedin.com/in/stanreiss/
+    twitter: https://twitter.com/stanreiss
+  - name: TJ Parker
+    role: Partner (HealthTech, Consumer)
+    linkedin: https://www.linkedin.com/in/tjparker1/
+    twitter: https://twitter.com/tjparker
+  - name: David Skok
+    role: General Partner (B2B, Infrastructure)
+    linkedin: https://www.linkedin.com/in/dskok/
+    twitter: https://twitter.com/BostonVC
+  - name: Tim Barrows
+    role: General Partner (Infrastructure)
+  - name: Andrew Verhalen
+    role: General Partner (Infrastructure)
+    linkedin: https://www.linkedin.com/in/andrew-verhalen-63115b29/
+  - name: Paul Ferri
+    role: Founder
+  - name: Andrea Black
+    role: COO
+    linkedin: https://www.linkedin.com/in/andrealblack/
+  - name: Erin Mauro
+    role: CFO
+    linkedin: https://www.linkedin.com/in/erin-mauro/
+  - name: Phyllis Doherty
+    role: Administrative Partner
+  - name: Scott Khanna
+    role: Talent Partner
+    linkedin: https://www.linkedin.com/in/scottkhanna/
+    twitter: https://twitter.com/scottkhanna
