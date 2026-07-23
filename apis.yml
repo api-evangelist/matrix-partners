@@ -11,6 +11,17 @@ description: >-
   firm has backed foundational technology and consumer companies including Apple, HubSpot, Zendesk, Canva,
   Afterpay, Oculus, Fivetran, Flock Safety, Quora, Postmates, GOAT, and Suno, with a track record spanning
   semiconductors and networking through today's AI-native startups.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 image: https://matrix.vc/favicon.ico
 x-type: venture-capital
 x-category: Venture Capital

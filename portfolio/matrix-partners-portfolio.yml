@@ -3,9 +3,9 @@ method: searched
 source: https://matrix.vc/#portfolio
 summary:
   portfolio_total: 130
-  in_network: 40
-  api_providers: 24
-  missing: 90
+  in_network: 130
+  api_providers: 38
+  missing: 0
   stubs_created: 0
 companies:
 - name: Aluna
@@ -15,9 +15,10 @@ companies:
   stage: series-a
   status: active
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: aluna
+  slug: aluna
+  matched_by: domain
 - name: Luma Labs
   url: https://lumalabs.ai
   description: Generative AI for 3D and video (Dream Machine).
@@ -47,9 +48,10 @@ companies:
   stage: growth
   status: active
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: owl-labs
+  slug: owl-labs
+  matched_by: domain
 - name: Sesame
   url: https://sesame.com
   description: Conversational voice AI and AI companion devices.
@@ -57,9 +59,10 @@ companies:
   stage: series-a
   status: active
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sesame
+  slug: sesame
+  matched_by: name-slug
 - name: Suno
   url: https://suno.com
   description: Generative AI music creation platform.
@@ -78,9 +81,10 @@ companies:
   stage: seed
   status: active
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: trisk-bio
+  slug: trisk-bio
+  matched_by: domain
 - name: ApartmentList
   url: https://apartmentlist.com
   description: Online apartment rental marketplace.
@@ -88,9 +92,10 @@ companies:
   stage: growth
   status: active
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: apartmentlist
+  slug: apartmentlist
+  matched_by: domain
 - name: Baselane
   url: https://baselane.com
   description: Banking and financial platform for independent landlords.
@@ -98,9 +103,10 @@ companies:
   stage: series-a
   status: active
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: baselane
+  slug: baselane
+  matched_by: domain
 - name: EarnIn
   url: https://earnin.com
   description: Earned wage access app for on-demand pay.
@@ -108,9 +114,10 @@ companies:
   stage: growth
   status: active
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: earnin
+  slug: earnin
+  matched_by: domain
 - name: Mudflap
   url: https://mudflapinc.com
   description: Fuel discounts and payments platform for truckers.
@@ -118,9 +125,10 @@ companies:
   stage: series-c
   status: active
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mudflap
+  slug: mudflap
+  matched_by: domain
 - name: Side
   url: https://side.com
   description: Real estate brokerage platform powering independent agents.
@@ -128,9 +136,10 @@ companies:
   stage: growth
   status: active
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: side
+  slug: side
+  matched_by: domain
 - name: Steadily
   url: https://steadily.com
   description: Landlord and rental property insurance.
@@ -138,9 +147,10 @@ companies:
   stage: series-b
   status: active
   source: https://matrix.vc/#portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: steadily
+  in_network: true
+  is_api_provider: true
+  slug: steadily
+  matched_by: domain
 - name: Zest AI
   url: https://zest.ai
   description: AI-driven credit underwriting for lenders.
@@ -148,9 +158,10 @@ companies:
   stage: growth
   status: active
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: zest-ai
+  slug: zest-ai
+  matched_by: domain
 - name: August Health
   url: https://augusthealth.com
   description: Care platform for senior living operators.
@@ -158,9 +169,10 @@ companies:
   stage: series-b
   status: active
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: august-health
+  slug: august-health
+  matched_by: domain
 - name: Chameleon
   url: https://chameleon.io
   description: In-product user onboarding and adoption tooling.
@@ -190,9 +202,10 @@ companies:
   stage: growth
   status: active
   source: https://matrix.vc/#portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: flock-safety
+  in_network: true
+  is_api_provider: true
+  slug: flock-safety
+  matched_by: domain
 - name: Mashgin
   url: https://mashgin.com
   description: AI-powered self-checkout kiosks.
@@ -200,9 +213,10 @@ companies:
   stage: series-b
   status: active
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mashgin
+  slug: mashgin
+  matched_by: domain
 - name: Parabola
   url: https://parabola.io
   description: No-code data automation for operations teams.
@@ -254,9 +268,10 @@ companies:
   stage: seed
   status: active
   source: https://matrix.vc/#portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: lm-studio
+  in_network: true
+  is_api_provider: true
+  slug: lm-studio
+  matched_by: domain
 - name: Rainforest
   url: https://rainforestpay.com
   description: Embedded payments platform for software companies.
@@ -264,9 +279,10 @@ companies:
   stage: series-a
   status: active
   source: https://matrix.vc/#portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: rainforest
+  in_network: true
+  is_api_provider: true
+  slug: rainforest
+  matched_by: domain
 - name: Meadow
   url: https://meadowfi.com
   description: Financial platform / fintech startup.
@@ -274,9 +290,10 @@ companies:
   stage: seed
   status: active
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: meadow
+  slug: meadow
+  matched_by: domain
 - name: Benny
   url: https://bennyapi.com
   description: API and financial product startup.
@@ -284,9 +301,10 @@ companies:
   stage: seed
   status: active
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: benny
+  slug: benny
+  matched_by: domain
 - name: Baya Systems
   url: https://bayasystems.com
   description: Chiplet and SoC interconnect fabric IP.
@@ -294,9 +312,10 @@ companies:
   stage: series-b
   status: active
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: baya-systems
+  slug: baya-systems
+  matched_by: domain
 - name: Centaur Labs
   url: https://centaurlabs.com
   description: Medical data labeling marketplace for AI.
@@ -304,9 +323,10 @@ companies:
   stage: series-a
   status: active
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: centaur-labs
+  slug: centaur-labs
+  matched_by: domain
 - name: Lightforce
   url: https://lf.co
   description: 3D-printed custom orthodontic brackets (LightForce Orthodontics).
@@ -314,9 +334,10 @@ companies:
   stage: growth
   status: active
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lightforce
+  slug: lightforce-orthodontics
+  matched_by: domain
 - name: Lightmatter
   url: https://lightmatter.co
   description: Photonic computing for AI datacenters.
@@ -346,9 +367,10 @@ companies:
   stage: series-a
   status: active
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: nubis
+  slug: nubis
+  matched_by: name-slug
 - name: Xtalic
   url: https://xtalic.com
   description: Advanced nanostructured alloy coatings and materials science.
@@ -356,9 +378,10 @@ companies:
   stage: growth
   status: active
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: xtalic
+  slug: xtalic
+  matched_by: domain
 - name: General Medicine
   url: https://generalmedicine.co
   description: Virtual-first primary care platform.
@@ -366,9 +389,10 @@ companies:
   stage: seed
   status: active
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: general-medicine
+  slug: general-medicine
+  matched_by: domain
 - name: Headlight
   url: https://headlight.health
   description: Mental health and telepsychiatry provider.
@@ -376,9 +400,10 @@ companies:
   stage: series-a
   status: active
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: headlight
+  slug: headlight
+  matched_by: domain
 - name: Mevo
   url: https://mevo.com.br
   description: Digital pharmacy and prescription platform (Brazil).
@@ -386,9 +411,10 @@ companies:
   stage: series-b
   status: active
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mevo
+  slug: mevo
+  matched_by: domain
 - name: CloudZero
   url: https://cloudzero.com
   description: Cloud cost intelligence and FinOps platform.
@@ -407,9 +433,10 @@ companies:
   stage: growth
   status: active
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sila
+  slug: sila-nanotechnologies
+  matched_by: domain
 - name: Apollo
   url: https://apollographql.com
   description: GraphQL API platform and federation (Apollo GraphQL).
@@ -439,7 +466,7 @@ companies:
   stage: growth
   status: active
   source: https://matrix.vc/#portfolio
-  slug: consumer-products
+  slug: alkemics
   in_network: true
   is_api_provider: false
   matched_by: domain
@@ -450,9 +477,10 @@ companies:
   stage: series-c
   status: active
   source: https://matrix.vc/#portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: smartcat
+  in_network: true
+  is_api_provider: true
+  slug: smartcat
+  matched_by: domain
 - name: afterpay
   url: https://afterpay.com
   sector: unknown
@@ -489,9 +517,10 @@ companies:
   stage: unknown
   status: unknown
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: goat
+  slug: goat
+  matched_by: domain
 - name: hubspot
   url: https://hubspot.com
   sector: unknown
@@ -508,9 +537,10 @@ companies:
   stage: acquired
   status: acquired
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: oculus
+  slug: oculus
+  matched_by: name-slug
 - name: zendesk
   url: https://zendesk.com
   sector: unknown
@@ -539,9 +569,10 @@ companies:
   stage: seed
   status: active
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: acacia
+  slug: acacia
+  matched_by: domain
 - name: Accord
   url: https://inaccord.com
   description: B2B sales collaboration and deal management platform.
@@ -559,18 +590,20 @@ companies:
   stage: acquired
   status: acquired
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: affirmed
+  slug: affirmed
+  matched_by: name-slug
 - name: Airvana
   description: Mobile broadband infrastructure; acquired by CommScope.
   sector: infrastructure
   stage: acquired
   status: acquired
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: airvana
+  slug: airvana
+  matched_by: name-slug
 - name: Alteon
   url: https://radware.com
   description: Application delivery / load balancing (now Radware Alteon).
@@ -578,9 +611,10 @@ companies:
   stage: acquired
   status: acquired
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: alteon
+  slug: alteon
+  matched_by: domain
 - name: Ambarella
   url: https://ambarella.com
   description: Low-power video and computer vision SoCs.
@@ -588,45 +622,50 @@ companies:
   stage: ipo
   status: ipo
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ambarella
+  slug: ambarella
+  matched_by: domain
 - name: AMCC
   description: Applied Micro Circuits; semiconductors, acquired.
   sector: semiconductors
   stage: acquired
   status: acquired
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: amcc
+  slug: amcc
+  matched_by: name-slug
 - name: AppIQ
   description: Storage management software; acquired by HP.
   sector: infrastructure
   stage: acquired
   status: acquired
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: appiq
+  slug: appiq
+  matched_by: name-slug
 - name: Argon
   description: Networking/infrastructure startup.
   sector: infrastructure
   stage: unknown
   status: unknown
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: argon
+  slug: argon
+  matched_by: name-slug
 - name: ArrowPoint
   description: Web switching; acquired by Cisco.
   sector: infrastructure
   stage: acquired
   status: acquired
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: arrowpoint
+  slug: arrowpoint
+  matched_by: name-slug
 - name: Aruba
   url: https://arubanetworks.com
   description: Enterprise wireless networking (Aruba Networks, HPE).
@@ -645,18 +684,20 @@ companies:
   stage: seed
   status: active
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bonsai
+  slug: bonsai
+  matched_by: domain
 - name: Broadband Access
   description: Broadband access networking startup.
   sector: infrastructure
   stage: acquired
   status: acquired
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: broadband-access
+  slug: broadband-access
+  matched_by: name-slug
 - name: Bugsnag
   url: https://bugsnag.com
   description: Application error monitoring; acquired by SmartBear.
@@ -674,9 +715,10 @@ companies:
   stage: acquired
   status: acquired
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: camiant
+  slug: camiant
+  matched_by: name-slug
 - name: Care.com
   url: https://care.com
   description: Marketplace for care; acquired by IAC.
@@ -694,18 +736,20 @@ companies:
   stage: acquired
   status: acquired
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cascade
+  slug: cascade
+  matched_by: name-slug
 - name: CloudSwitch
   description: Cloud migration software; acquired by Verizon.
   sector: infrastructure
   stage: acquired
   status: acquired
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cloudswitch
+  slug: cloudswitch
+  matched_by: name-slug
 - name: CommonGround
   url: https://commonground-ai.com
   description: AI startup (CommonGround).
@@ -713,9 +757,10 @@ companies:
   stage: seed
   status: active
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: commonground
+  slug: commonground
+  matched_by: domain
 - name: Concerto
   url: https://concertocard.com
   description: Credit card platform (Concerto).
@@ -723,9 +768,10 @@ companies:
   stage: seed
   status: active
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: concerto
+  slug: concerto
+  matched_by: domain
 - name: Conductor
   url: https://conductor.build
   description: AI coding/agent developer platform.
@@ -743,9 +789,10 @@ companies:
   stage: acquired
   status: acquired
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: confer
+  slug: confer
+  matched_by: name-slug
 - name: Cosmos
   url: https://cosmos.so
   description: Visual discovery and curation platform.
@@ -774,9 +821,10 @@ companies:
   stage: acquired
   status: acquired
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ctrl-labs
+  slug: ctrl-labs
+  matched_by: name-slug
 - name: Educative
   url: https://educative.io
   description: Interactive developer learning platform.
@@ -795,18 +843,20 @@ companies:
   stage: seed
   status: active
   source: https://matrix.vc/#portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: emerge-tools
+  in_network: true
+  is_api_provider: true
+  slug: emerge-tools
+  matched_by: domain
 - name: Empirix
   description: Network test and monitoring; acquired by Infovista.
   sector: infrastructure
   stage: acquired
   status: acquired
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: empirix
+  slug: empirix
+  matched_by: name-slug
 - name: Fabletics
   url: https://fabletics.com
   description: Activewear subscription brand.
@@ -814,9 +864,10 @@ companies:
   stage: growth
   status: active
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fabletics
+  slug: fabletics
+  matched_by: domain
 - name: Fini
   url: https://usefini.com
   description: AI customer support agent platform.
@@ -824,9 +875,10 @@ companies:
   stage: seed
   status: active
   source: https://matrix.vc/#portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: fini
+  in_network: true
+  is_api_provider: true
+  slug: fini
+  matched_by: domain
 - name: Gentrace
   url: https://gentrace.ai
   description: LLM evaluation and testing platform.
@@ -834,27 +886,30 @@ companies:
   stage: series-a
   status: active
   source: https://matrix.vc/#portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: gentrace
+  in_network: true
+  is_api_provider: true
+  slug: gentrace
+  matched_by: domain
 - name: Gilt Groupe
   description: Flash-sale ecommerce; acquired.
   sector: consumer
   stage: acquired
   status: acquired
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: gilt-groupe
+  slug: gilt-groupe
+  matched_by: name-slug
 - name: GrabCAD
   description: CAD collaboration; acquired by Stratasys.
   sector: b2b
   stage: acquired
   status: acquired
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: grabcad
+  slug: grabcad
+  matched_by: name-slug
 - name: Hashboard
   url: https://hashboard.com
   description: Business intelligence and data exploration tool.
@@ -862,9 +917,10 @@ companies:
   stage: seed
   status: active
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hashboard
+  slug: hashboard
+  matched_by: domain
 - name: Infinity AI
   url: https://infinity.ai
   description: Generative AI video / character startup.
@@ -872,9 +928,10 @@ companies:
   stage: seed
   status: active
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: infinity-ai
+  slug: infinity-ai
+  matched_by: domain
 - name: Inflection
   description: Startup (Inflection).
   sector: b2b
@@ -902,9 +959,10 @@ companies:
   stage: acquired
   status: acquired
   source: https://matrix.vc/#portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: kolide
+  in_network: true
+  is_api_provider: true
+  slug: kolide
+  matched_by: domain
 - name: Lam Research
   url: https://lamresearch.com
   description: Semiconductor fabrication equipment.
@@ -934,9 +992,10 @@ companies:
   stage: series-a
   status: active
   source: https://matrix.vc/#portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: lightspark
+  in_network: true
+  is_api_provider: true
+  slug: lightspark
+  matched_by: domain
 - name: Mesa
   url: https://earlypay.joinmesa.com
   description: Homeowner rewards and payments (Mesa).
@@ -944,9 +1003,10 @@ companies:
   stage: seed
   status: active
   source: https://matrix.vc/#portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: mesa
+  in_network: true
+  is_api_provider: true
+  slug: mesa
+  matched_by: domain
 - name: Meshcapade
   url: https://meshcapade.com
   description: 3D digital human body models.
@@ -954,9 +1014,10 @@ companies:
   stage: seed
   status: active
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: meshcapade
+  slug: meshcapade
+  matched_by: domain
 - name: Namely
   url: https://namely.com
   description: HR platform for mid-market; acquired by Vensure.
@@ -974,9 +1035,10 @@ companies:
   stage: acquired
   status: acquired
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: netezza
+  slug: netezza
+  matched_by: name-slug
 - name: nference
   url: https://nference.com
   description: Biomedical data and AI for life sciences.
@@ -984,36 +1046,40 @@ companies:
   stage: growth
   status: active
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: nference
+  slug: nference
+  matched_by: domain
 - name: OmniML
   description: Edge ML optimization; acquired by NVIDIA.
   sector: ai
   stage: acquired
   status: acquired
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: omniml
+  slug: omniml
+  matched_by: name-slug
 - name: ONDisplay
   description: Early ecommerce software; acquired by Vignette.
   sector: b2b
   stage: acquired
   status: acquired
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ondisplay
+  slug: ondisplay
+  matched_by: name-slug
 - name: OpenPages
   description: Governance risk and compliance; acquired by IBM.
   sector: b2b
   stage: acquired
   status: acquired
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: openpages
+  slug: openpages
+  matched_by: name-slug
 - name: PayRange
   url: https://payrange.com
   description: Mobile payments for unattended retail and vending.
@@ -1021,9 +1087,10 @@ companies:
   stage: series-b
   status: active
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: payrange
+  slug: payrange
+  matched_by: domain
 - name: Pingo
   url: https://mypingoai.com
   description: AI language learning startup.
@@ -1031,9 +1098,10 @@ companies:
   stage: seed
   status: active
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pingo
+  slug: pingo
+  matched_by: name-slug
 - name: Pixcel
   url: https://pixcel.com
   description: Startup (Pixcel).
@@ -1041,18 +1109,20 @@ companies:
   stage: seed
   status: active
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pixcel
+  slug: pixcel
+  matched_by: domain
 - name: Polyvore
   description: Fashion social commerce; acquired by Yahoo.
   sector: consumer
   stage: acquired
   status: acquired
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: polyvore
+  slug: polyvore
+  matched_by: name-slug
 - name: Postmates
   url: https://postmates.com
   description: On-demand delivery; acquired by Uber.
@@ -1071,27 +1141,30 @@ companies:
   stage: acquired
   status: acquired
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: poynt
+  slug: poynt
+  matched_by: domain
 - name: Prominet
   description: Networking; acquired by Lucent.
   sector: infrastructure
   stage: acquired
   status: acquired
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: prominet
+  slug: prominet
+  matched_by: name-slug
 - name: QPID
   description: Clinical decision support (QPID Health); acquired by Evicore.
   sector: healthtech
   stage: acquired
   status: acquired
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: qpid
+  slug: qpid
+  matched_by: name-slug
 - name: Quora
   url: https://quora.com
   description: Question-and-answer knowledge platform (and Poe AI).
@@ -1109,9 +1182,10 @@ companies:
   stage: unknown
   status: unknown
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: redstone
+  slug: redstone
+  matched_by: name-slug
 - name: Relace
   url: https://relace.ai
   description: AI code retrieval and editing infrastructure.
@@ -1119,9 +1193,10 @@ companies:
   stage: seed
   status: active
   source: https://matrix.vc/#portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: relace
+  in_network: true
+  is_api_provider: true
+  slug: relace
+  matched_by: domain
 - name: Reshop
   url: https://reshop.com
   description: Post-purchase refunds and returns platform.
@@ -1129,9 +1204,10 @@ companies:
   stage: seed
   status: active
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: reshop
+  slug: reshop
+  matched_by: domain
 - name: Salient
   url: https://trysalient.com
   description: AI voice agents for lending and collections.
@@ -1139,9 +1215,10 @@ companies:
   stage: series-a
   status: active
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: salient
+  slug: salient
+  matched_by: domain
 - name: SanDisk
   url: https://sandisk.com
   description: Flash memory and storage; acquired by Western Digital.
@@ -1159,18 +1236,20 @@ companies:
   stage: acquired
   status: acquired
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: silverstream
+  slug: silverstream
+  matched_by: name-slug
 - name: SiTera
   description: Networking chips; acquired by Vitesse.
   sector: semiconductors
   stage: acquired
   status: acquired
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sitera
+  slug: sitera
+  matched_by: name-slug
 - name: Sonus
   url: https://ribboncommunications.com
   description: VoIP infrastructure; now Ribbon Communications.
@@ -1178,9 +1257,10 @@ companies:
   stage: acquired
   status: acquired
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sonus
+  slug: sonus
+  matched_by: domain
 - name: Splitwise
   url: https://splitwise.com
   description: Shared expense splitting app.
@@ -1188,27 +1268,30 @@ companies:
   stage: seed
   status: active
   source: https://matrix.vc/#portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: splitwise
+  in_network: true
+  is_api_provider: true
+  slug: splitwise
+  matched_by: domain
 - name: Starent
   description: Mobile packet core; acquired by Cisco.
   sector: infrastructure
   stage: acquired
   status: acquired
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: starent
+  slug: starent
+  matched_by: name-slug
 - name: Sycamore
   description: Optical networking (Sycamore Networks).
   sector: infrastructure
   stage: ipo
   status: dead
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sycamore
+  slug: sycamore
+  matched_by: name-slug
 - name: Taxa
   url: https://taxatech.com
   description: Synthetic biology / bioengineering startup.
@@ -1216,9 +1299,10 @@ companies:
   stage: seed
   status: active
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: taxa
+  slug: taxa
+  matched_by: domain
 - name: Teammates
   url: https://teammates.work
   description: AI teammates / agent startup.
@@ -1226,18 +1310,20 @@ companies:
   stage: seed
   status: active
   source: https://matrix.vc/#portfolio
-  in_network: false
-  is_api_provider: false
-  suggested_slug: teammates
+  in_network: true
+  is_api_provider: true
+  slug: teammates
+  matched_by: domain
 - name: The Echo Nest
   description: Music intelligence; acquired by Spotify.
   sector: ai
   stage: acquired
   status: acquired
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: the-echo-nest
+  slug: the-echo-nest
+  matched_by: name-slug
 - name: The Ladders
   url: https://theladders.com
   description: Job search site for senior roles.
@@ -1245,18 +1331,20 @@ companies:
   stage: growth
   status: active
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: the-ladders
+  slug: the-ladders
+  matched_by: domain
 - name: Unidesk
   description: Desktop virtualization; acquired by Citrix.
   sector: infrastructure
   stage: acquired
   status: acquired
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: unidesk
+  slug: unidesk
+  matched_by: name-slug
 - name: Veritas
   url: https://veritas.com
   description: Data protection and storage management.
@@ -1274,9 +1362,10 @@ companies:
   stage: acquired
   status: acquired
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vermeer
+  slug: vermeer
+  matched_by: name-slug
 - name: WatchGuard
   url: https://watchguard.com
   description: Network security appliances.
@@ -1305,6 +1394,7 @@ companies:
   stage: acquired
   status: acquired
   source: https://matrix.vc/#portfolio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: zong
+  slug: zong
+  matched_by: name-slug
