@@ -2,9 +2,9 @@ generated: '2026-07-17'
 method: searched
 source: https://matrix.vc/#portfolio
 summary:
-  portfolio_total: 130
-  in_network: 128
-  api_providers: 42
+  portfolio_total: 129
+  in_network: 127
+  api_providers: 43
   missing: 2
   stubs_created: 0
 companies:
@@ -61,8 +61,8 @@ companies:
   source: https://matrix.vc/#portfolio
   in_network: false
   is_api_provider: false
-  x-name-collision: sesame
   suggested_slug: sesame-com
+  x-name-collision: sesame
 - name: Suno
   url: https://suno.com
   description: Generative AI music creation platform.
@@ -594,6 +594,7 @@ companies:
   is_api_provider: false
   slug: affirmed
   matched_by: name-slug
+  x-url-candidate: https://www.affirmed.io/
 - name: Airvana
   description: Mobile broadband infrastructure; acquired by CommScope.
   sector: infrastructure
@@ -604,6 +605,7 @@ companies:
   is_api_provider: false
   slug: airvana
   matched_by: name-slug
+  x-url-candidate: https://www.airvana.ai/
 - name: Alteon
   url: https://radware.com
   description: Application delivery / load balancing (now Radware Alteon).
@@ -636,6 +638,7 @@ companies:
   is_api_provider: false
   slug: amcc
   matched_by: name-slug
+  x-url-candidate: https://amcc.io
 - name: AppIQ
   description: Storage management software; acquired by HP.
   sector: infrastructure
@@ -656,6 +659,7 @@ companies:
   is_api_provider: false
   slug: argon
   matched_by: name-slug
+  x-url-candidate: https://www.aquasec.com/news/aqua-acquires-argon-software-supply-chain-security/
 - name: ArrowPoint
   description: Web switching; acquired by Cisco.
   sector: infrastructure
@@ -739,7 +743,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: cascade
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.cascade.io/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: CloudSwitch
   description: Cloud migration software; acquired by Verizon.
   sector: infrastructure
@@ -825,6 +831,7 @@ companies:
   is_api_provider: false
   slug: ctrl-labs
   matched_by: name-slug
+  x-url-candidate: https://ctrl.com
 - name: Educative
   url: https://educative.io
   description: Interactive developer learning platform.
@@ -909,7 +916,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: grabcad
-  matched_by: name-slug
+  matched_by: domain
+  url: https://grabcad.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Hashboard
   url: https://hashboard.com
   description: Business intelligence and data exploration tool.
@@ -941,7 +950,9 @@ companies:
   slug: inflection
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://inflection.ai/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: JBoss
   description: Open-source Java middleware; acquired by Red Hat.
   sector: infrastructure
@@ -1036,9 +1047,11 @@ companies:
   status: acquired
   source: https://matrix.vc/#portfolio
   in_network: true
-  is_api_provider: false
-  slug: netezza
-  matched_by: name-slug
+  is_api_provider: true
+  slug: ibm
+  matched_by: domain
+  url: https://www.ibm.com/products/netezza
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: nference
   url: https://nference.com
   description: Biomedical data and AI for life sciences.
@@ -1070,16 +1083,6 @@ companies:
   is_api_provider: false
   slug: ondisplay
   matched_by: name-slug
-- name: OpenPages
-  description: Governance risk and compliance; acquired by IBM.
-  sector: b2b
-  stage: acquired
-  status: acquired
-  source: https://matrix.vc/#portfolio
-  in_network: true
-  is_api_provider: false
-  slug: openpages
-  matched_by: name-slug
 - name: PayRange
   url: https://payrange.com
   description: Mobile payments for unattended retail and vending.
@@ -1100,8 +1103,8 @@ companies:
   source: https://matrix.vc/#portfolio
   in_network: false
   is_api_provider: false
-  x-name-collision: pingo
   suggested_slug: mypingoai-com
+  x-name-collision: pingo
 - name: Pixcel
   url: https://pixcel.com
   description: Startup (Pixcel).
@@ -1155,6 +1158,7 @@ companies:
   is_api_provider: false
   slug: prominet
   matched_by: name-slug
+  x-url-candidate: https://www.prominet.com/
 - name: QPID
   description: Clinical decision support (QPID Health); acquired by Evicore.
   sector: healthtech
@@ -1185,7 +1189,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: redstone
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.redstone.finance
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Relace
   url: https://relace.ai
   description: AI code retrieval and editing infrastructure.
@@ -1240,6 +1246,7 @@ companies:
   is_api_provider: false
   slug: silverstream
   matched_by: name-slug
+  x-url-candidate: https://www.silverstream.io/
 - name: SiTera
   description: Networking chips; acquired by Vitesse.
   sector: semiconductors
@@ -1282,6 +1289,7 @@ companies:
   is_api_provider: false
   slug: starent
   matched_by: name-slug
+  x-url-candidate: https://starent.io
 - name: Sycamore
   description: Optical networking (Sycamore Networks).
   sector: infrastructure
@@ -1291,7 +1299,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: sycamore
-  matched_by: name-slug
+  matched_by: domain
+  url: https://sycamore.so
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Taxa
   url: https://taxatech.com
   description: Synthetic biology / bioengineering startup.
@@ -1345,6 +1355,7 @@ companies:
   is_api_provider: false
   slug: unidesk
   matched_by: name-slug
+  x-url-candidate: https://unidesk.io
 - name: Veritas
   url: https://veritas.com
   description: Data protection and storage management.
@@ -1365,7 +1376,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: vermeer
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.getvermeer.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: WatchGuard
   url: https://watchguard.com
   description: Network security appliances.
