@@ -3,9 +3,9 @@ method: searched
 source: https://matrix.vc/#portfolio
 summary:
   portfolio_total: 130
-  in_network: 130
-  api_providers: 38
-  missing: 0
+  in_network: 128
+  api_providers: 42
+  missing: 2
   stubs_created: 0
 companies:
 - name: Aluna
@@ -26,7 +26,7 @@ companies:
   stage: series-b
   status: active
   source: https://matrix.vc/#portfolio
-  slug: luma-ai
+  slug: luma-labs
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -59,10 +59,10 @@ companies:
   stage: series-a
   status: active
   source: https://matrix.vc/#portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: sesame
-  matched_by: name-slug
+  x-name-collision: sesame
+  suggested_slug: sesame-com
 - name: Suno
   url: https://suno.com
   description: Generative AI music creation platform.
@@ -94,7 +94,7 @@ companies:
   source: https://matrix.vc/#portfolio
   in_network: true
   is_api_provider: false
-  slug: apartmentlist
+  slug: apartment-list
   matched_by: domain
 - name: Baselane
   url: https://baselane.com
@@ -170,7 +170,7 @@ companies:
   status: active
   source: https://matrix.vc/#portfolio
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: august-health
   matched_by: domain
 - name: Chameleon
@@ -324,7 +324,7 @@ companies:
   status: active
   source: https://matrix.vc/#portfolio
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: centaur-labs
   matched_by: domain
 - name: Lightforce
@@ -466,9 +466,9 @@ companies:
   stage: growth
   status: active
   source: https://matrix.vc/#portfolio
-  slug: alkemics
+  slug: salsify
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Smartcat
   url: https://smartcat.com
@@ -580,10 +580,10 @@ companies:
   stage: seed
   status: active
   source: https://matrix.vc/#portfolio
-  slug: accord
+  slug: accordacff
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
 - name: Affirmed
   description: Virtualized mobile core networks; acquired by Microsoft.
   sector: infrastructure
@@ -1025,9 +1025,9 @@ companies:
   stage: acquired
   status: acquired
   source: https://matrix.vc/#portfolio
-  slug: hr-and-people
+  slug: namely
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Netezza
   description: Data warehouse appliances; acquired by IBM.
@@ -1098,10 +1098,10 @@ companies:
   stage: seed
   status: active
   source: https://matrix.vc/#portfolio
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: pingo
-  matched_by: name-slug
+  x-name-collision: pingo
+  suggested_slug: mypingoai-com
 - name: Pixcel
   url: https://pixcel.com
   description: Startup (Pixcel).
